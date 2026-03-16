@@ -13,6 +13,3 @@ def users():
         {"id": 2, "name": "Kamal"}
     ]
     return jsonify(data)
-
-if __name__ == "__main__":
-    app.run()
